@@ -65,7 +65,7 @@ public class TryLock {
             }
         }
 
-        return false;
+//        return false;
     }
 
     private static boolean isTimeout(String threadName, long stopTime) {
